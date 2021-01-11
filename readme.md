@@ -49,4 +49,11 @@ IMAGE_PATH对应自己目录的任意图像文件
 
 
 
-部署训练好的模型(将pytorch模型转换为IR)
+部署训练好的模型(将pytorch模型转换为IR)(https://github.com/RangiLyu/nanodet#how-to-deploy)
+步骤1先将pytorch(.pth)转换为.onnx模型：(https://convertmodel.com/)
+利用tools文件夹export.py，修改cfg_path = r"config/test.yml"和model_path = r"model/model_last.pth"
+步骤2简化onnx模型(https://github.com/daquexian/onnx-simplifier#python-version)
+步骤3转换onnx为openvino的IR(https://docs.openvinotoolkit.org/cn/latest/openvino_docs_MO_DG_prepare_model_convert_model_Converting_Model.html)
+
+https://docs.openvinotoolkit.org/cn/latest/openvino_docs_MO_DG_prepare_model_convert_model_Convert_Model_From_ONNX.html
+

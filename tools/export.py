@@ -13,8 +13,8 @@ def main(config, model_path, output_path, input_shape=(320, 320)):
     print('finished exporting onnx ')
 
 if __name__ == '__main__':
-    cfg_path = r"config/nanodet-m.yml"
-    model_path = r"nanodet_m.pth"
-    out_path = r'output.onnx'
+    cfg_path = r"config/test.yml"
+    model_path = r"model/model_last.pth"
+    out_path = r'onnx/output.onnx'
     load_config(cfg, cfg_path)
     main(cfg, model_path, out_path, input_shape=(320, 320))
