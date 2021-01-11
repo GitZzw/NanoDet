@@ -1,0 +1,124 @@
+INFO:root:Using Tensorboard, logs will be saved in /home/sugon/zzw/NanoDet-PyTorch/save/logs
+INFO:root:Creating model...
+INFO:root:Setting up data...
+INFO:root:loading annotations into memory...
+INFO:root:Found 538 annotation files.
+INFO:root:Load 538 xml files and 538 boxes
+INFO:root:Done (t=0.04s)
+INFO:root:loading annotations into memory...
+INFO:root:Found 0 annotation files.
+INFO:root:Load 0 xml files and 0 boxes
+INFO:root:Done (t=0.00s)
+INFO:root:Training batch size: 160
+INFO:root:Starting training...
+INFO:root:Start warming up...
+INFO:root:warmup|Iter(1/300)| lr:1.44e-02| loss_qfl:0.6876| loss_bbox:0.9938| loss_dfl:0.5237| 
+INFO:root:warmup|Iter(4/300)| lr:1.57e-02| loss_qfl:0.7216| loss_bbox:0.9020| loss_dfl:0.5113| 
+INFO:root:warmup|Iter(7/300)| lr:1.69e-02| loss_qfl:0.5127| loss_bbox:0.8603| loss_dfl:0.4596| 
+INFO:root:warmup|Iter(10/300)| lr:1.82e-02| loss_qfl:0.4153| loss_bbox:0.8000| loss_dfl:0.4122| 
+INFO:root:warmup|Iter(13/300)| lr:1.95e-02| loss_qfl:0.2464| loss_bbox:0.6775| loss_dfl:0.3405| 
+INFO:root:warmup|Iter(16/300)| lr:2.07e-02| loss_qfl:0.1532| loss_bbox:0.5743| loss_dfl:0.2865| 
+INFO:root:warmup|Iter(19/300)| lr:2.20e-02| loss_qfl:0.1375| loss_bbox:0.4978| loss_dfl:0.2649| 
+INFO:root:warmup|Iter(22/300)| lr:2.32e-02| loss_qfl:0.1153| loss_bbox:0.4452| loss_dfl:0.2514| 
+INFO:root:warmup|Iter(25/300)| lr:2.45e-02| loss_qfl:0.1039| loss_bbox:0.4079| loss_dfl:0.2369| 
+INFO:root:warmup|Iter(28/300)| lr:2.58e-02| loss_qfl:0.0949| loss_bbox:0.3661| loss_dfl:0.2217| 
+INFO:root:warmup|Iter(31/300)| lr:2.70e-02| loss_qfl:0.0972| loss_bbox:0.3283| loss_dfl:0.2064| 
+INFO:root:warmup|Iter(34/300)| lr:2.83e-02| loss_qfl:0.0999| loss_bbox:0.2981| loss_dfl:0.1937| 
+INFO:root:warmup|Iter(37/300)| lr:2.95e-02| loss_qfl:0.1025| loss_bbox:0.2876| loss_dfl:0.1879| 
+INFO:root:warmup|Iter(40/300)| lr:3.08e-02| loss_qfl:0.0996| loss_bbox:0.2776| loss_dfl:0.1814| 
+INFO:root:warmup|Iter(43/300)| lr:3.21e-02| loss_qfl:0.1005| loss_bbox:0.2666| loss_dfl:0.1784| 
+INFO:root:warmup|Iter(46/300)| lr:3.33e-02| loss_qfl:0.0995| loss_bbox:0.2533| loss_dfl:0.1738| 
+INFO:root:warmup|Iter(49/300)| lr:3.46e-02| loss_qfl:0.0971| loss_bbox:0.2484| loss_dfl:0.1720| 
+INFO:root:warmup|Iter(52/300)| lr:3.58e-02| loss_qfl:0.0941| loss_bbox:0.2382| loss_dfl:0.1689| 
+INFO:root:warmup|Iter(55/300)| lr:3.71e-02| loss_qfl:0.0970| loss_bbox:0.2343| loss_dfl:0.1651| 
+INFO:root:warmup|Iter(58/300)| lr:3.84e-02| loss_qfl:0.0997| loss_bbox:0.2333| loss_dfl:0.1648| 
+INFO:root:warmup|Iter(61/300)| lr:3.96e-02| loss_qfl:0.1018| loss_bbox:0.2338| loss_dfl:0.1641| 
+INFO:root:warmup|Iter(64/300)| lr:4.09e-02| loss_qfl:0.1039| loss_bbox:0.2326| loss_dfl:0.1640| 
+INFO:root:warmup|Iter(67/300)| lr:4.21e-02| loss_qfl:0.1017| loss_bbox:0.2283| loss_dfl:0.1636| 
+INFO:root:warmup|Iter(70/300)| lr:4.34e-02| loss_qfl:0.0974| loss_bbox:0.2265| loss_dfl:0.1635| 
+INFO:root:warmup|Iter(73/300)| lr:4.47e-02| loss_qfl:0.0957| loss_bbox:0.2233| loss_dfl:0.1627| 
+INFO:root:warmup|Iter(76/300)| lr:4.59e-02| loss_qfl:0.0949| loss_bbox:0.2266| loss_dfl:0.1628| 
+INFO:root:warmup|Iter(79/300)| lr:4.72e-02| loss_qfl:0.1011| loss_bbox:0.2271| loss_dfl:0.1635| 
+INFO:root:warmup|Iter(82/300)| lr:4.84e-02| loss_qfl:0.1030| loss_bbox:0.2197| loss_dfl:0.1620| 
+INFO:root:warmup|Iter(85/300)| lr:4.97e-02| loss_qfl:0.1034| loss_bbox:0.2151| loss_dfl:0.1608| 
+INFO:root:warmup|Iter(88/300)| lr:5.10e-02| loss_qfl:0.1031| loss_bbox:0.2106| loss_dfl:0.1602| 
+INFO:root:warmup|Iter(91/300)| lr:5.22e-02| loss_qfl:0.1025| loss_bbox:0.2137| loss_dfl:0.1604| 
+INFO:root:warmup|Iter(94/300)| lr:5.35e-02| loss_qfl:0.1010| loss_bbox:0.2161| loss_dfl:0.1607| 
+INFO:root:warmup|Iter(97/300)| lr:5.47e-02| loss_qfl:0.0994| loss_bbox:0.2156| loss_dfl:0.1612| 
+INFO:root:warmup|Iter(100/300)| lr:5.60e-02| loss_qfl:0.0989| loss_bbox:0.2127| loss_dfl:0.1609| 
+INFO:root:warmup|Iter(103/300)| lr:5.73e-02| loss_qfl:0.0982| loss_bbox:0.2085| loss_dfl:0.1601| 
+INFO:root:warmup|Iter(106/300)| lr:5.85e-02| loss_qfl:0.0973| loss_bbox:0.2065| loss_dfl:0.1590| 
+INFO:root:warmup|Iter(109/300)| lr:5.98e-02| loss_qfl:0.0936| loss_bbox:0.2037| loss_dfl:0.1584| 
+INFO:root:warmup|Iter(112/300)| lr:6.10e-02| loss_qfl:0.0923| loss_bbox:0.2034| loss_dfl:0.1577| 
+INFO:root:warmup|Iter(115/300)| lr:6.23e-02| loss_qfl:0.0918| loss_bbox:0.2044| loss_dfl:0.1581| 
+INFO:root:warmup|Iter(118/300)| lr:6.36e-02| loss_qfl:0.0929| loss_bbox:0.2020| loss_dfl:0.1574| 
+INFO:root:warmup|Iter(121/300)| lr:6.48e-02| loss_qfl:0.0947| loss_bbox:0.2006| loss_dfl:0.1576| 
+INFO:root:warmup|Iter(124/300)| lr:6.61e-02| loss_qfl:0.0941| loss_bbox:0.2005| loss_dfl:0.1576| 
+INFO:root:warmup|Iter(127/300)| lr:6.73e-02| loss_qfl:0.0971| loss_bbox:0.2033| loss_dfl:0.1582| 
+INFO:root:warmup|Iter(130/300)| lr:6.86e-02| loss_qfl:0.0967| loss_bbox:0.2058| loss_dfl:0.1591| 
+INFO:root:warmup|Iter(133/300)| lr:6.99e-02| loss_qfl:0.0961| loss_bbox:0.2087| loss_dfl:0.1593| 
+INFO:root:warmup|Iter(136/300)| lr:7.11e-02| loss_qfl:0.0972| loss_bbox:0.2147| loss_dfl:0.1598| 
+INFO:root:warmup|Iter(139/300)| lr:7.24e-02| loss_qfl:0.0980| loss_bbox:0.2128| loss_dfl:0.1602| 
+INFO:root:warmup|Iter(142/300)| lr:7.36e-02| loss_qfl:0.0974| loss_bbox:0.2115| loss_dfl:0.1600| 
+INFO:root:warmup|Iter(145/300)| lr:7.49e-02| loss_qfl:0.0991| loss_bbox:0.2067| loss_dfl:0.1601| 
+INFO:root:warmup|Iter(148/300)| lr:7.62e-02| loss_qfl:0.0975| loss_bbox:0.2044| loss_dfl:0.1590| 
+INFO:root:warmup|Iter(151/300)| lr:7.74e-02| loss_qfl:0.0977| loss_bbox:0.2033| loss_dfl:0.1577| 
+INFO:root:warmup|Iter(154/300)| lr:7.87e-02| loss_qfl:0.0922| loss_bbox:0.2020| loss_dfl:0.1568| 
+INFO:root:warmup|Iter(157/300)| lr:7.99e-02| loss_qfl:0.0939| loss_bbox:0.2039| loss_dfl:0.1571| 
+INFO:root:warmup|Iter(160/300)| lr:8.12e-02| loss_qfl:0.0914| loss_bbox:0.2037| loss_dfl:0.1573| 
+INFO:root:warmup|Iter(163/300)| lr:8.25e-02| loss_qfl:0.0897| loss_bbox:0.2084| loss_dfl:0.1577| 
+INFO:root:warmup|Iter(166/300)| lr:8.37e-02| loss_qfl:0.1033| loss_bbox:0.2031| loss_dfl:0.1574| 
+INFO:root:warmup|Iter(169/300)| lr:8.50e-02| loss_qfl:0.1070| loss_bbox:0.2046| loss_dfl:0.1579| 
+INFO:root:warmup|Iter(172/300)| lr:8.62e-02| loss_qfl:0.1102| loss_bbox:0.2018| loss_dfl:0.1575| 
+INFO:root:warmup|Iter(175/300)| lr:8.75e-02| loss_qfl:0.1023| loss_bbox:0.1963| loss_dfl:0.1568| 
+INFO:root:warmup|Iter(178/300)| lr:8.88e-02| loss_qfl:0.0962| loss_bbox:0.1971| loss_dfl:0.1561| 
+INFO:root:warmup|Iter(181/300)| lr:9.00e-02| loss_qfl:0.0933| loss_bbox:0.1949| loss_dfl:0.1553| 
+INFO:root:warmup|Iter(184/300)| lr:9.13e-02| loss_qfl:0.0922| loss_bbox:0.1963| loss_dfl:0.1551| 
+INFO:root:warmup|Iter(187/300)| lr:9.25e-02| loss_qfl:0.0903| loss_bbox:0.1989| loss_dfl:0.1558| 
+INFO:root:warmup|Iter(190/300)| lr:9.38e-02| loss_qfl:0.0886| loss_bbox:0.1998| loss_dfl:0.1557| 
+INFO:root:warmup|Iter(193/300)| lr:9.51e-02| loss_qfl:0.0925| loss_bbox:0.1971| loss_dfl:0.1550| 
+INFO:root:warmup|Iter(196/300)| lr:9.63e-02| loss_qfl:0.0966| loss_bbox:0.1925| loss_dfl:0.1539| 
+INFO:root:warmup|Iter(199/300)| lr:9.76e-02| loss_qfl:0.0958| loss_bbox:0.1916| loss_dfl:0.1538| 
+INFO:root:warmup|Iter(202/300)| lr:9.88e-02| loss_qfl:0.0962| loss_bbox:0.1905| loss_dfl:0.1542| 
+INFO:root:warmup|Iter(205/300)| lr:1.00e-01| loss_qfl:0.0944| loss_bbox:0.1918| loss_dfl:0.1545| 
+INFO:root:warmup|Iter(208/300)| lr:1.01e-01| loss_qfl:0.0961| loss_bbox:0.1953| loss_dfl:0.1555| 
+INFO:root:warmup|Iter(211/300)| lr:1.03e-01| loss_qfl:0.0978| loss_bbox:0.1954| loss_dfl:0.1559| 
+INFO:root:warmup|Iter(214/300)| lr:1.04e-01| loss_qfl:0.0989| loss_bbox:0.1995| loss_dfl:0.1561| 
+INFO:root:warmup|Iter(217/300)| lr:1.05e-01| loss_qfl:0.0971| loss_bbox:0.2045| loss_dfl:0.1568| 
+INFO:root:warmup|Iter(220/300)| lr:1.06e-01| loss_qfl:0.0944| loss_bbox:0.2058| loss_dfl:0.1566| 
+INFO:root:warmup|Iter(223/300)| lr:1.08e-01| loss_qfl:0.0882| loss_bbox:0.2039| loss_dfl:0.1564| 
+INFO:root:warmup|Iter(226/300)| lr:1.09e-01| loss_qfl:0.0949| loss_bbox:0.1989| loss_dfl:0.1551| 
+INFO:root:warmup|Iter(229/300)| lr:1.10e-01| loss_qfl:0.0977| loss_bbox:0.1987| loss_dfl:0.1549| 
+INFO:root:warmup|Iter(232/300)| lr:1.11e-01| loss_qfl:0.1000| loss_bbox:0.2017| loss_dfl:0.1558| 
+INFO:root:warmup|Iter(235/300)| lr:1.13e-01| loss_qfl:0.0970| loss_bbox:0.2014| loss_dfl:0.1558| 
+INFO:root:warmup|Iter(238/300)| lr:1.14e-01| loss_qfl:0.0910| loss_bbox:0.1965| loss_dfl:0.1547| 
+INFO:root:warmup|Iter(241/300)| lr:1.15e-01| loss_qfl:0.0916| loss_bbox:0.1940| loss_dfl:0.1539| 
+INFO:root:warmup|Iter(244/300)| lr:1.16e-01| loss_qfl:0.0929| loss_bbox:0.1956| loss_dfl:0.1536| 
+INFO:root:warmup|Iter(247/300)| lr:1.18e-01| loss_qfl:0.0961| loss_bbox:0.2001| loss_dfl:0.1546| 
+INFO:root:warmup|Iter(250/300)| lr:1.19e-01| loss_qfl:0.0956| loss_bbox:0.2021| loss_dfl:0.1551| 
+INFO:root:warmup|Iter(253/300)| lr:1.20e-01| loss_qfl:0.0930| loss_bbox:0.2010| loss_dfl:0.1554| 
+INFO:root:warmup|Iter(256/300)| lr:1.22e-01| loss_qfl:0.0897| loss_bbox:0.1978| loss_dfl:0.1551| 
+INFO:root:warmup|Iter(259/300)| lr:1.23e-01| loss_qfl:0.0932| loss_bbox:0.1968| loss_dfl:0.1549| 
+INFO:root:warmup|Iter(262/300)| lr:1.24e-01| loss_qfl:0.0931| loss_bbox:0.1943| loss_dfl:0.1547| 
+INFO:root:warmup|Iter(265/300)| lr:1.25e-01| loss_qfl:0.0918| loss_bbox:0.1931| loss_dfl:0.1545| 
+INFO:root:warmup|Iter(268/300)| lr:1.27e-01| loss_qfl:0.0857| loss_bbox:0.1893| loss_dfl:0.1541| 
+INFO:root:warmup|Iter(271/300)| lr:1.28e-01| loss_qfl:0.0857| loss_bbox:0.1886| loss_dfl:0.1541| 
+INFO:root:warmup|Iter(274/300)| lr:1.29e-01| loss_qfl:0.0856| loss_bbox:0.1896| loss_dfl:0.1544| 
+INFO:root:warmup|Iter(277/300)| lr:1.30e-01| loss_qfl:0.0864| loss_bbox:0.1913| loss_dfl:0.1542| 
+INFO:root:warmup|Iter(280/300)| lr:1.32e-01| loss_qfl:0.0845| loss_bbox:0.1900| loss_dfl:0.1531| 
+INFO:root:warmup|Iter(283/300)| lr:1.33e-01| loss_qfl:0.0843| loss_bbox:0.1910| loss_dfl:0.1531| 
+INFO:root:warmup|Iter(286/300)| lr:1.34e-01| loss_qfl:0.0868| loss_bbox:0.1928| loss_dfl:0.1524| 
+INFO:root:warmup|Iter(289/300)| lr:1.35e-01| loss_qfl:0.0906| loss_bbox:0.1919| loss_dfl:0.1529| 
+INFO:root:warmup|Iter(292/300)| lr:1.37e-01| loss_qfl:0.0903| loss_bbox:0.1907| loss_dfl:0.1526| 
+INFO:root:warmup|Iter(295/300)| lr:1.38e-01| loss_qfl:0.0911| loss_bbox:0.1891| loss_dfl:0.1525| 
+INFO:root:warmup|Iter(298/300)| lr:1.39e-01| loss_qfl:0.0911| loss_bbox:0.1877| loss_dfl:0.1529| 
+INFO:root:train|Epoch1/190|Iter1(0/3)| lr:1.40e-01| loss_qfl:0.0900| loss_bbox:0.1820| loss_dfl:0.1531| 
+INFO:root:train|Epoch2/190|Iter4(0/3)| lr:1.40e-01| loss_qfl:0.0945| loss_bbox:0.1738| loss_dfl:0.1484| 
+INFO:root:train|Epoch3/190|Iter7(0/3)| lr:1.40e-01| loss_qfl:0.0799| loss_bbox:0.1777| loss_dfl:0.1513| 
+INFO:root:train|Epoch4/190|Iter10(0/3)| lr:1.40e-01| loss_qfl:0.0685| loss_bbox:0.1826| loss_dfl:0.1516| 
+INFO:root:train|Epoch5/190|Iter13(0/3)| lr:1.40e-01| loss_qfl:0.0936| loss_bbox:0.1878| loss_dfl:0.1520| 
+INFO:root:train|Epoch6/190|Iter16(0/3)| lr:1.40e-01| loss_qfl:0.0892| loss_bbox:0.1775| loss_dfl:0.1504| 
+INFO:root:train|Epoch7/190|Iter19(0/3)| lr:1.40e-01| loss_qfl:0.0791| loss_bbox:0.1915| loss_dfl:0.1529| 
+INFO:root:train|Epoch8/190|Iter22(0/3)| lr:1.40e-01| loss_qfl:0.1084| loss_bbox:0.1825| loss_dfl:0.1513| 
+INFO:root:train|Epoch9/190|Iter25(0/3)| lr:1.40e-01| loss_qfl:0.0838| loss_bbox:0.1754| loss_dfl:0.1505| 
+INFO:root:train|Epoch10/190|Iter28(0/3)| lr:1.40e-01| loss_qfl:0.0901| loss_bbox:0.1858| loss_dfl:0.1531| 
