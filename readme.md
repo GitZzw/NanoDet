@@ -1,4 +1,4 @@
-ubuntu 开机启动图像界面和命令行界面
+ubuntu 开机启动图像界面和命令行界面:
 https://blog.csdn.net/londa/article/details/90905575
 
 使用实验室服务器(已安装nvidia驱动和cuda，版本应该对应要求https://github.com/RangiLyu/nanodet#requirements)
