@@ -9,7 +9,7 @@ def main(config, model_path, output_path, input_shape=(320, 320)):
     checkpoint = torch.load(model_path, map_location=lambda storage, loc: storage)
     load_model_weight(model, checkpoint, logger)
     dummy_input = torch.autograd.Variable(torch.randn(1, 3, input_shape[0], input_shape[1]))
-    torch.onnx.export(model, dummy_input, output_path, verbose=True, keep_initializers_as_inputs=True, opset_version=11)
+    torch.onnx.export(model, dummy_input, output_path, verbose=True, keep_initializers_as_inputs=True, opset_version=10)
     print('finished exporting onnx ')
 
 if __name__ == '__main__':
