@@ -1,3 +1,6 @@
+
+
+
 ubuntu 开机启动图像界面和命令行界面:
 https://blog.csdn.net/londa/article/details/90905575
 
@@ -22,7 +25,7 @@ conda create -n your_env_name python=X.X（2.7、3.5)
 3.激活环境
 conda activate your_env_name
 
-
+conda install 和 pip install
 
 
 按照官网install步骤配置环境(https://github.com/RangiLyu/nanodet#install)
@@ -55,8 +58,19 @@ IMAGE_PATH对应自己目录的任意图像文件
 部署训练好的模型(将pytorch模型转换为IR)(https://github.com/RangiLyu/nanodet#how-to-deploy)
 步骤1先将pytorch(.pth)转换为.onnx模型：(https://convertmodel.com/)
 利用tools文件夹export.py，修改cfg_path = r"config/test.yml"和model_path = r"model/model_last.pth"
+(optset_version=10            https://github.com/anhnktp/yolov5_openvino/issues/3)
 步骤2简化onnx模型(https://github.com/daquexian/onnx-simplifier#python-version)
 步骤3转换onnx为openvino的IR(https://docs.openvinotoolkit.org/cn/latest/openvino_docs_MO_DG_prepare_model_convert_model_Converting_Model.html)
 
+使用openvino工具包中mo.py工具
 https://docs.openvinotoolkit.org/cn/latest/openvino_docs_MO_DG_prepare_model_convert_model_Convert_Model_From_ONNX.html
+得到bin,mapping,xml三个IR文件
+
+报错需要安装依赖，安装后能成功转换，但是转换后的xml不能推理，显示80个classes，Nanodet的demo模型也不行(考虑要不要简化？是不是320*320的问题？)
+
+
+考虑其他的方式转化
+https://www.baidu.com/s?wd=openvino%20onnx&rsv_spt=1&rsv_iqid=0xb39c87e5002648fd&issp=1&f=8&rsv_bp=1&rsv_idx=2&ie=utf-8&tn=baiduhome_pg&rsv_enter=1&rsv_dl=ib&rsv_sug3=20&rsv_sug1=15&rsv_sug7=100&rsv_sug2=0&rsv_btype=i&inputT=4940&rsv_sug4=5381
+新办法：https://github.com/ngeorgis/pytorch_onnx_openvino
+http://www.pinlue.com/article/2020/08/0814/3911118488829.html
 
