@@ -15,6 +15,6 @@ def main(config, model_path, output_path, input_shape=(320, 320)):
 if __name__ == '__main__':
     cfg_path = r"config/nanodet-m.yml"
     model_path = r"model/nanodet_m.pth"
-    out_path = r'onnx/output2.onnx'
+    out_path = r'onnx/test1842.onnx'
     load_config(cfg, cfg_path)
     main(cfg, model_path, out_path, input_shape=(320, 320))
