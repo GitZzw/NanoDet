@@ -41,7 +41,7 @@ IV.按照Nanodet要求配置环境(https://github.com/RangiLyu/nanodet#install)
 
 #### 4.[测试demo](https://github.com/RangiLyu/nanodet#pytorch-demo)
 CONFIG_PATH对应config/nanodet-m.yml
-MODEL_PATH从google硬盘下载(https://drive.google.com/file/d/1EhMqGozKfqEfw8y9ftbi1jhYu86XoW62/view?usp=sharing)对应nanodet_m.pth
+MODEL_PATH从[google硬盘下载](https://drive.google.com/file/d/1EhMqGozKfqEfw8y9ftbi1jhYu86XoW62/view?usp=sharing)对应nanodet_m.pth
 IMAGE_PATH对应自己目录的任意图像文件
 
 #### 5.[训练自己的模型](https://github.com/RangiLyu/nanodet#how-to-train)
@@ -57,10 +57,16 @@ III.测试
 
 I.[先将pytorch(.pth)转换为.onnx模型](https://convertmodel.com/)  
 > 或者利用tools文件夹export.py，修改cfg_path = r"config/test.yml"和model_path = r"model/model_last.pth"
-  [记得修改optset_version=10](https://github.com/anhnktp/yolov5_openvino/issues/3)  
+  [记得修改optset_version=10](https://github.com/anhnktp/yolov5_openvino/issues/3)
+  
+
 II.[简化onnx模型](https://github.com/daquexian/onnx-simplifier#python-version)   
+
+
 III.[转换onnx为openvino的IR](https://docs.openvinotoolkit.org/cn/latest/openvino_docs_MO_DG_prepare_model_convert_model_Converting_Model.html)
 > 使用openvino工具包中mo.py工具[得到bin,mapping,xml三个IR文件](https://docs.openvinotoolkit.org/cn/latest/openvino_docs_MO_DG_prepare_model_convert_model_Convert_Model_From_ONNX.html)
+
+
 IV.写openvino的推理进行部署
 
 
