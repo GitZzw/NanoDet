@@ -47,8 +47,10 @@ IMAGE_PATH对应自己目录的任意图像文件
 #### 5.[训练自己的模型](https://github.com/RangiLyu/nanodet#how-to-train)
 
 I.[下载config文件即yml模板](https://github.com/RangiLyu/nanodet/blob/main/config/nanodet_custom_xml_dataset.yml)
+
 II.修改该yml模板内容 
 > 训练模型结果的保存目录，类别，xml文件夹和pic文件夹(在yml模板中注释位置)
+
 III.测试 
 > 训练结束后，在保存目录下找到model_last.pth，就是最终训练结果 
   测试效果运行`python demo/demo.py video --config CONFIG_PATH --model MODEL_PATH --path VIDEO_PATH`修改对应config和model路径即可
