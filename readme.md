@@ -1,7 +1,7 @@
 ubuntu [开机启动图像界面和命令行界面切换方式](https://blog.csdn.net/londa/article/details/90905575)
 
 ## nvidia显卡和cuda安装
-使用实验室服务器(已安装nvidia驱动和cuda，[版本应该对应要求](https://github.com/RangiLyu/nanodet#requirements)
+使用实验室服务器(已安装nvidia驱动和cuda，[版本应该对应要求](https://github.com/RangiLyu/nanodet#requirements))
 #### 1.命令行查看显卡运行状态 nvidia-smi
 ```
 NVIDIA-SMI 450.57 Driver Version:450.57 CUDA Version:11.0
